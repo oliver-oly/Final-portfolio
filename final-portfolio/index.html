@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Olivia Debacker – Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Flaticon UIcons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div class="background-shapes"></div>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="#home">Olivia Debacker<span>.</span></a>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO / HOME -->
+    <section id="home" class="hero section">
+      <div class="hero-text">
+        <h1 class="hero-hello">HELLO</h1>
+        <p class="hero-intro">
+          My name is <strong>Olivia Debacker</strong>, and I’m a Web Programming student at
+          NSCC – IT Campus. This is my first time studying in a technology program. Back in
+          Brazil, I completed an intermediate computer course, but nothing compares to the
+          techniques and academic development that NSCC provides.
+        </p>
+        <p class="hero-intro">
+          Every day I learn a lot from the professionals in the field – my instructors. I
+          have also worked for two years as an administrative agent, and I completed a
+          one-and-a-half-year photography course, which helped me develop a stronger design
+          eye and attention to visual details.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn-primary" href="#contact">Contact</a>
+          <a class="btn-ghost" href="#resume">See my Resume</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="mailto:oliviadebacker.2@gmail.com" aria-label="Email">
+            <i class="fi fi-rr-envelope"></i>
+          </a>
+          </a>
+          <a 
+          href="https://github.com/oliver-oly"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <i class="fi fi-brands-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <img
+          src="imagens\olivia_portrait.jpg"
+          alt="Portrait of Olivia Debacker"
+          class="hero-image"
+        />
+        <div class="hero-frame hero-frame--one"></div>
+        <div class="hero-frame hero-frame--two"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT + MINI GALLERY -->
+    <section id="about" class="section section-alt about">
+      <div class="about-text">
+        <h2>About</h2>
+        <p>
+          I’m Olivia, originally from Brazil and now based in Nova Scotia, Canada. My
+          journey has taken me from customer service and administrative work in city hall
+          to studying IT Web Programming at NSCC.
+        </p>
+        <p>
+          I enjoy blending technology with a soft, nostalgic visual style – pastel colours,
+          floral details, and gentle typography. My goal is to design websites that feel
+          comforting, organized, and easy to navigate.
+        </p>
+        <p>
+          Outside of coding, you’ll probably find me spending time with my dog, exploring new
+          cafés, or curating inspiration boards full of flowers and vintage aesthetics.
+        </p>
+      </div>
+
+      <div class="mini-gallery">
+        <div class="mini-gallery-main">
+          <img src="imagens\olivia_dog.jpg" alt="Olivia with her dog" />
+        </div>
+        <div class="mini-gallery-side">
+          <img src="imagens\olivia_model.jpg" alt="Olivia portrait" />
+          <img src="imagens\olivia_garden.jpg" alt="Olivia sitting outdoors" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Web & Design</h3>
+          <ul>
+            <li>HTML5 &amp; CSS3 (Flexbox &amp; responsive layout)</li>
+            <li>Basic JavaScript &amp; TypeScript</li>
+            <li>Wireframing &amp; layout planning</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Administration & Service</h3>
+          <ul>
+            <li>Front-desk and customer service</li>
+            <li>Document organization &amp; filing systems</li>
+            <li>Scheduling, HR support &amp; report creation</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Tools & Soft Skills</h3>
+          <ul>
+            <li>Microsoft Office &amp; Google Workspace</li>
+            <li>Time management &amp; teamwork</li>
+            <li>Adaptability, empathy &amp; professionalism</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESUME (NO PDF, IN COLUMNS LIKE KITT) -->
+    <section id="resume" class="section resume">
+      <h2>Resume</h2>
+
+      <div class="resume-layout resume-grid">
+        <div class="resume-image">
+          <img src="imagens\olivia_rose.jpg" alt="Rose outline aesthetic" />
+        </div>
+
+        <div class="resume-columns-block">
+          <div class="resume-column">
+            <h3>Schooling</h3>
+            <ul>
+              <li>
+                <strong>IT Web Design</strong><br />
+                Nova Scotia Community College (NSCC)
+              </li>
+              <li>
+                <strong>High School Diploma</strong><br />
+                Olympic Heights Community High School, Florida, USA
+              </li>
+              <li>
+                <strong>Advanced Computer Skills</strong><br />
+                Microbyte Professional Training Center, Brazil
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-column">
+            <h3>Volunteering</h3>
+            <ul>
+              <li>
+                <strong>Key Club</strong><br />
+                Community and school events – United States
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-column">
+            <h3>Work Experience</h3>
+            <ul>
+              <li>
+                <strong>Administrative Agent</strong><br />
+                City Hall of Joinville – Brazil
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-column">
+            <h3>Certifications</h3>
+            <ul>
+              <li>Photography</li>
+              <li>Theatre</li>
+              <li>Aerospace</li>
+              <li>Music</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DECORATIVE BANNER -->
+    <section class="section section-alt deco-banner">
+      <div class="deco-banner-inner">
+        <img
+          src="imagens\olivia_book.jpg"
+          alt="Vintage floral collage aesthetic"
+          class="deco-banner-image"
+        />
+        <div class="deco-banner-text">
+          <p>
+            “Soft colours, gentle layouts, and small details that make people feel welcome.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+
+      <div class="contact-layout">
+        <div class="contact-card">
+          <p>
+            If you’d like to connect, collaborate, or just say hello, feel free to send me a
+            message using this form or through my social links.
+          </p>
+
+          <form class="contact-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Your email" required />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Write something..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-side">
+          <img
+            src="C:\Users\Owner\Desktop\final-portfolio\imagens\deco-vintage-collage.jpg"
+            alt="Olivia smiling with her dog"
+            class="contact-image"
+          />
+          <div class="contact-details">
+            <p><i class="fi fi-rr-envelope"></i> oliviadebacker.2@gmail.com</p>
+            <p><i class="fi fi-brands-github"></i> github.com/oliver-oly</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Olivia Debacker. All rights reserved.</p>
+    <p class="credits">
+      Icons by <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>.
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
